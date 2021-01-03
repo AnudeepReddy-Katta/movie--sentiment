@@ -7,7 +7,7 @@ import preprocess
 
 model = pickle.load(open('pipline.pkl', 'rb'))
 
-app = Flask('movie--sentiment')
+app = Flask('__name__')
 
 @app.route('/')
 def base():

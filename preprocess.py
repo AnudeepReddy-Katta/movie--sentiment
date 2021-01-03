@@ -1,7 +1,6 @@
 import bs4 as bs
 import nltk
 import re
-from nltk.corpus import stopwords
 
 eng_stopwords = stopwords.words('english')
 

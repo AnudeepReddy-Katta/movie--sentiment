@@ -14,7 +14,6 @@ regex==2020.11.13
 scikit-learn==0.23.2
 scipy==1.5.2
 six==1.15.0
-soupsiev==2.1
 threadpoolctl==2.1.0
 tqdm==4.55.0
 Werkzeug==1.0.1

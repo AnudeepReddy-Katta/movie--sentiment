@@ -1,6 +1,5 @@
 import bs4 as bs
 import nltk
-from nltk.tokenize import sent_tokenize # tokenizes sentences
 import re
 from nltk.corpus import stopwords
 

@@ -1,0 +1,21 @@
+<style>
+   div
+   { text-align: center;
+   padding: 15px;"
+   }
+   h1
+   {
+   text-align: center;
+   }
+</style>
+<!doctype html>
+<html>
+   {% include 'nav.html' %}
+   <body>
+      <h1>Your Review</h1>
+      <div>{{features}}</div>
+      <h1>Predicted Sentiment</h1>
+      <div>{{sentiment}}</div>
+   </body>
+   {% include 'footer.html' %}
+</html>

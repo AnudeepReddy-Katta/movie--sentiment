@@ -1,0 +1,31 @@
+<style>
+h1 {  text-align: center; }
+div{ text-align: center; }
+.button {
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+<!DOCTYPE html>
+<html>
+  {% include 'nav.html' %}
+  <body>
+  <h1 >Enter your movie review</h1>
+    <form method="POST" action = "/result">
+      <div class = "form-group" >
+        <input type="text" name = "review" style="width:75%; height:75px;">
+      </div>
+
+      <div style="text-align:center;padding: 30px;">
+      <input class="button" type="submit" value="submit">
+      </div>
+    </form>
+  </body>
+  {% include 'footer.html' %}
+</html>
